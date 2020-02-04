@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     public void sendMessage(View view){
         //Do something when button tapped...
         //Really important change
+        //Another feature added
         Intent intent;
         intent = new Intent(this, DisplayMessageActivity.class);
         EditText editText = (EditText) findViewById(R.id.nameEditText);
